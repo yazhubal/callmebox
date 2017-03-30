@@ -12,7 +12,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
  </head>
- 
+
  <!-- Modal content -->
 <div class="modal-content" style="max-width:500px;">
   <div class="modal-header">
@@ -31,32 +31,35 @@
 		<div class="form-group">
 			<label class="col-sm-2 control-label">Telefon</label>
 			<div class="col-sm-10">
-			
+
 				<div class="phone-list">
-				
+
 					<div class="input-group phone-input">
 						<span class="input-group-btn">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="type-text">Wybierz</span> <span class="caret"></span></button>
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+<!---
+                <span class="type-text">Wybierz</span> <span class="caret"></span></button>
 							<ul class="dropdown-menu" role="menu">
 								<li><a class="changeType" href="javascript:;" data-type-value="phone">Stacjonarny</a></li>
 								<li><a class="changeType" href="javascript:;" data-type-value="mobile">Komórka</a></li>
 							</ul>
 						</span>
+            --->
 						<input type="hidden" name="phone[1][type]" class="type-input" value="" />
 						<input type="text" name="phone[1][number]" class="form-control" placeholder="+48 111 222 333" />
 					</div>
-					
+
 				</div>
-				
-				
+
+
 				<button type="button" class="btn btn-success btn-sm btn-add-phone"><span class="glyphicon glyphicon-plus"></span>Wyślij numer telefonu</button>
-	
+
 		    <a href="tel:+480713811693"><button type="button" class="btn btn-success btn-sm btn-add-phone"><span class="glyphicon glyphicon-earphone"></span> Lub zadzwoń teraz</button></a>
 			</div>
-			
+
 		</div>
-		
-		
+
+
 	</form>
     <hr>
 
